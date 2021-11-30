@@ -1,0 +1,36 @@
+body{
+    max-width: 1920px;
+    max-height: 1080px;
+}
+header{
+    display: flex;
+    background-color: #4b5320;
+    width: fit-content;
+    height: 100px;
+    border: 3px solid #A6C3C3;
+    margin: 5px;
+}
+.left-flexSidebar{
+    display: flex;
+    flex-flow: column;
+}
+#PersonalitySidebar{
+    /* display: block; */
+    /* float: left; */
+    background-color: #B1BCA0;
+    width: 280px;
+    height: 300px;
+    border: 2px solid darkolivegreen;
+    border-bottom: 0px;
+    border-radius: 5px;
+}
+#ContactMe{
+    /* display: block; */
+    /* float: left; */
+    background-color: #B1BCA0;
+    width: 280px;
+    height: 300px;
+    border: 2px solid darkolivegreen;
+    border-top: 0px;
+    border-radius: 5px;
+}
